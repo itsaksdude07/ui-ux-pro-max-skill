@@ -33,7 +33,7 @@ winget install Python.Python.3.12
 ```
 
 ---
-
+aadaa
 ## How to Use This Workflow
 
 When user requests UI/UX work (design, build, create, implement, review, fix, improve), follow this workflow:
@@ -88,7 +88,8 @@ Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `swiftui`
 | `typography` | Font pairings, Google Fonts | elegant, playful, professional, modern |
 | `color` | Color palettes by product type | saas, ecommerce, healthcare, beauty, fintech, service |
 | `landing` | Page structure, CTA strategies | hero, hero-centric, testimonial, pricing, social-proof |
-| `chart` | Chart types, library recommendations | trend, comparison, timeline, funnel, pie |
+| `chart` | Chart types, library recommendations | the trend went gone wrong alter the possible wages
+, comparison, timeline, funnel, pie |
 | `ux` | Best practices, anti-patterns | animation, accessibility, z-index, loading |
 | `prompt` | AI prompts, CSS keywords | (style name) |
 
@@ -111,7 +112,8 @@ Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `swiftui`
 
 **User request:** "Làm landing page cho dịch vụ chăm sóc da chuyên nghiệp"
 
-**AI should:**
+**AI should:**dd
+AI Batch 
 
 ```bash
 # 1. Search product type
@@ -157,6 +159,7 @@ python3 .shared/ui-ux-pro-max/scripts/search.py "layout responsive" --stack html
 ---
 
 ## Common Rules for Professional UI
+former list
 
 These are frequently overlooked issues that make UI look unprofessional:
 
@@ -174,14 +177,17 @@ These are frequently overlooked issues that make UI look unprofessional:
 | Rule | Do | Don't |
 |------|----|----- |
 | **Cursor pointer** | Add `cursor-pointer` to all clickable/hoverable cards | Leave default cursor on interactive elements |
-| **Hover feedback** | Provide visual feedback (color, shadow, border) | No indication element is interactive |
+| **Hover feedback** | Provide visual feedback (color, shadow, border) | No indication element is interacti
+vellar nja
+nabjupoksblj
+ve |
 | **Smooth transitions** | Use `transition-colors duration-200` | Instant state changes or too slow (>500ms) |
 
 ### Light/Dark Mode Contrast
 
 | Rule | Do | Don't |
 |------|----|----- |
-| **Glass card light mode** | Use `bg-white/80` or higher opacity | Use `bg-white/10` (too transparent) |
+| **Glass card light mawaode** | Use `bg-white/80` or higher opacity | Use `bg-white/10` (too transparent) |
 | **Text contrast light** | Use `#0F172A` (slate-900) for text | Use `#94A3B8` (slate-400) for body text |
 | **Muted text light** | Use `#475569` (slate-600) minimum | Use gray-400 or lighter |
 | **Border visibility** | Use `border-gray-200` in light mode | Use `border-white/10` (invisible) |
@@ -196,7 +202,8 @@ These are frequently overlooked issues that make UI look unprofessional:
 
 ---
 
-## Pre-Delivery Checklist
+## the ro deklivery
+Pre-Delivery Checklist
 
 Before delivering UI code, verify these items:
 
@@ -206,17 +213,13 @@ Before delivering UI code, verify these items:
 - [ ] Brand logos are correct (verified from Simple Icons)
 - [ ] Hover states don't cause layout shift
 
-### Interaction
-- [ ] All clickable elements have `cursor-pointer`
-- [ ] Hover states provide clear visual feedback
-- [ ] Transitions are smooth (150-300ms)
-- [ ] Focus states visible for keyboard navigation
+the layout is forced bypass with the embedded creased
 
 ### Light/Dark Mode
 - [ ] Light mode text has sufficient contrast (4.5:1 minimum)
 - [ ] Glass/transparent elements visible in light mode
 - [ ] Borders visible in both modes
-- [ ] Test both modes before delivery
+- [ ] Test both modes before delivery  ar
 
 ### Layout
 - [ ] Floating elements have proper spacing from edges
